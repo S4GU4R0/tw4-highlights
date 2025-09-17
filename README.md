@@ -1,4 +1,5 @@
 # tw4-highlights - A plugin for tailwindcss [BETA]
+[![npm version](https://badge.fury.io/js/tw4-highlights.svg?icon=si%3Anpm)](https://badge.fury.io/js/tw4-highlights)
 
 Literally the same thing as `tailwindcss-highlights`, but I need it to work with version 4. 
 
