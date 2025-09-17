@@ -1,7 +1,7 @@
-import { PluginAPI } from "tailwindcss/types/config";
+// import PluginAPI from "tailwindcss/plugin";
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
-export const color = (p: PluginAPI) => {
+export const color = (p) => {
   const { matchUtilities, theme } = p;
 
   matchUtilities(

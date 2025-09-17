@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "node16",
     "outDir": "dist",
     "esModuleInterop": true,
-    "moduleResolution": "bundler"
+    "moduleResolution": "node16"
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules/**/*", "dist/**/*"]

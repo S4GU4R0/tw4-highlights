@@ -1,9 +1,9 @@
-import { PluginAPI } from "tailwindcss/types/config";
+// import type { PluginAPI } from "tailwindcss/plugin";
 
 const highlightsUrl =
   "https://raw.githubusercontent.com/jln13x/tailwindcss-highlights/main/highlights";
 
-export const variant = (p: PluginAPI) => {
+export const variant = (p) => {
   const { matchUtilities } = p;
 
   matchUtilities(

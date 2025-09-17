@@ -1,6 +1,6 @@
-import { PluginAPI } from "tailwindcss/types/config";
+// import type { PluginAPI } from "tailwindcss/plugin";
 
-export const spread = (p: PluginAPI) => {
+export const spread = (p) => {
   const { matchUtilities } = p;
 
   matchUtilities(

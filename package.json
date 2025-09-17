@@ -1,6 +1,6 @@
 {
   "name": "tw4-highlights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tailwindcss v4 plugin to add highlights to your text",
   "repository": "https://github.com/S4GU4R0/tw4-highlights",
   "keywords": [
