@@ -1,4 +1,6 @@
-# tailwindcss-highlights - A plugin for tailwindcss
+# tw4-highlights - A plugin for tailwindcss [BETA]
+
+Literally the same thing as tailwindcss-highlights, but I need it to work with version 4. 
 
 See it in Action 👉 [Preview](https://tailwindcss-highlights.hubatsch.dev/) or [Playground](https://play.tailwindcss.com/hM0gHS3erl)
 
@@ -9,14 +11,14 @@ This plugin adds utility classes to easily add highlights to your texts.
 
 To install the package, run
 
-    npm install -D tailwindcss-highlights
+    npm install -D tw4-highlights
 
 Add the plugin to the `tailwind.config.js` file in:
 
 ```javascript
 module.exports = {
   plugins: [
-    require('tailwindcss-highlights')),
+    require('tw4-highlights')),
   ]
 }
 ```

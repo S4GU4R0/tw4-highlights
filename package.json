@@ -1,8 +1,8 @@
 {
-  "name": "tailwindcss-highlights",
+  "name": "tw4-highlights",
   "version": "1.0.0",
-  "description": "A tailwindcss plugin to add highlights to your text",
-  "repository": "https://github.com/jln13x/tailwindcss-highlights",
+  "description": "A tailwindcss v4 plugin to add highlights to your text",
+  "repository": "https://github.com/S4GU4R0/tw4-highlights",
   "keywords": [
     "plugin",
     "tailwind",
@@ -12,23 +12,23 @@
     "marks",
     "brushes"
   ],
-  "author": "Julian Hubatsch",
+  "author": "S4GU4R0",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/jln13x/tailwindcss-highlights/issues"
+    "url": "https://github.com/S4GU4R0/tw4-highlights/issues"
   },
-  "homepage": "https://github.com/jln13x/tailwindcss-highlights#readme",
+  "homepage": "https://github.com/S4GU4R0/tw4-highlights#readme",
   "scripts": {
     "build": "tsc",
     "publish": "npm run build && npm publish",
     "optimize": "svgo -f ./highlights -o ./highlights"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "svgo": "^2.8.0",
